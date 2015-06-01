@@ -15,9 +15,10 @@ $ npm install --save dom-event-target
 ```js
 var EventTarget = require('dom-event-target');
 var target = new EventTarget()
-target.addEventListener('myEvent', function () {
-  console.log('myEvent fired')
+target.addEventListener('myEvent', function (data) {
+  console.log('myEvent fired', data)
 })
+target.send('myEvent', {foo: 'bar'})
 ```
 
 ## API
