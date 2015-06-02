@@ -23,7 +23,7 @@ target.send('myEvent', {foo: 'bar'})
 
 ## Caveats
 
-The true `EventTarget` in the browser prevents the addition of duplicate handlers for an event. This implement does not implement deduping. Duplicate handlers will be removed when `removeEventListener` is called with matching arguments. 
+The true `EventTarget` in the browser prevents the addition of duplicate handlers for an event. This library does not implement deduping. Duplicate handlers will be removed when `removeEventListener` is called with matching arguments. 
 
 The `useCapture` argument and the `dispatchEvent` method are not implemented. dom-event-target provides an EventTarget API, not a full implementation of DOM events.
 
