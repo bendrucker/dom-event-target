@@ -1,4 +1,4 @@
-# dom-event-target [![Build Status](https://travis-ci.org/bendrucker/dom-event-target.svg?branch=master)](https://travis-ci.org/bendrucker/dom-event-target)
+# dom-event-target [![Build Status](https://travis-ci.org/bendrucker/dom-event-target.svg?branch=master)](https://travis-ci.org/bendrucker/dom-event-target) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/dom-event-target.svg)](https://greenkeeper.io/)
 
 > DOM [`EventTarget`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget) compatible events interface
 
